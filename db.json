@@ -1,0 +1,62 @@
+{
+    "books": [
+      {
+        "id": "1",
+        "title": "Bhagavad Gita",
+        "author": "Author 1",
+        "isbn": "111111",
+        "quantity": 10
+      },
+      {
+        "id": "2",
+        "title": "Alchemist",
+        "author": "Author 2",
+        "isbn": "654321",
+        "quantity": 5
+      },
+      {
+        "id": "2d62",
+        "title": "Book 3",
+        "author": "Author 3",
+        "isbn": "333333",
+        "quantity": "8"
+      },
+      {
+        "id": "20fd",
+        "title": "Happy Life",
+        "author": "Me",
+        "isbn": "444444",
+        "quantity": "4"
+      }
+    ],
+    "users": [
+      {
+        "id": "1",
+        "name": "User 1",
+        "email": "user1@example.com",
+        "membershipId": "M001"
+      },
+      {
+        "id": "d0bb",
+        "name": "User 2",
+        "email": "user2@example.com",
+        "membershipId": "M002"
+      }
+    ],
+    "borrowingHistory": [
+      {
+        "id": "39b2",
+        "userId": "M001",
+        "bookId": 1,
+        "borrowDate": "2024-07-25T13:13:56.290Z",
+        "returnDate": "2024-07-25T13:14:21.764Z"
+      },
+      {
+        "id": "9443",
+        "userId": "M002",
+        "bookId": 1,
+        "borrowDate": "2024-07-26T04:38:51.921Z",
+        "returnDate": "2024-07-26T04:40:00.020Z"
+      }
+    ]
+  }
